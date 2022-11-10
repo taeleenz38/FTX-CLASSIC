@@ -157,7 +157,7 @@
 @media (max-width: 480px) {
   .content {
     object-fit: cover;
-    overflow:hidden;
+    overflow: hidden;
     background-position: 9% 60%;
   }
 
@@ -845,6 +845,14 @@
   margin-right: 30px;
 }
 
+.socials img:hover {
+  filter: brightness(0) saturate(100%) invert(70%) sepia(85%) saturate(308%) hue-rotate(146deg) brightness(95%) contrast(87%);
+}
+
+.ending-message a:hover {
+  color: #61D0E3;
+}
+
 .contract {
   color: white;
   margin-bottom: 175px;
@@ -913,10 +921,6 @@
   .contract h2 {
     font-size: 18px;
     text-align: center;
-  }
-
-  .ending-message a:hover {
-    color: #61D0E3;
   }
 }
 

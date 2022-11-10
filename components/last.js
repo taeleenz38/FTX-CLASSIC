@@ -17,7 +17,7 @@ export default function Navbar() {
           <h3>Join a Thriving Community</h3>
           <p>Our community grows stronger every day. Please follow our socials to get the most up-to-date, accurate FTX Classic Token information.</p>
           <div className="socials" >
-            <Link href="https://discord.gg/flur">
+            <Link href="https://discord.gg/flur" target="_blank" rel="noopener noreferrer">
               <Image
                 src="/discord.svg"
                 alt="discord icon"
@@ -25,7 +25,7 @@ export default function Navbar() {
                 height={38.24}
               />
             </Link>
-            <Link href="https://twitter.com/FTXCLASSIC">
+            <Link href="https://twitter.com/FTXCLASSIC" target="_blank" rel="noopener noreferrer">
               <Image
                 src="/twitter.svg"
                 alt="twitter icon"
@@ -33,7 +33,7 @@ export default function Navbar() {
                 height={38}
               />
             </Link>
-            <Link href="https://t.me/ftxclassicentry">
+            <Link href="https://t.me/ftxclassicentry" target="_blank" rel="noopener noreferrer">
               <Image
                 src="/telegram.svg"
                 alt="telegram icon"
