@@ -14,7 +14,7 @@ export default function Navbar() {
         />
 
         <div className="ending-message" id="socials">
-          <h3>Join a Thriving Degen Community</h3>
+          <h3>Join a Thriving Community</h3>
           <p>Our community grows stronger every day. Please follow our socials to get the most up-to-date, accurate FTX Classic Token information.</p>
           <div className="socials" >
             <Link href="https://discord.gg/flur">

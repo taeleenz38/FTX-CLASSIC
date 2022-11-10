@@ -5,12 +5,12 @@ export default function Navbar() {
   return (
     <div className='pitch'>
       <div className="pitch-head">
-        <h2>When billionaires get caught up in pissing contests, it can tank the market...</h2>
+        <h2>FTTC is here for those hurt by the recent market conditions... </h2>
       </div>
       <div className="pitch-info">
         <div className="pitch-1">
           <h2>
-            {"...but FTTC is your bonafide urine umbrella and provides these exceptional benefits"}
+            {"...the FTTC community is here to stay - join now before it's too late"}
           </h2>
         </div>
         <div className="pitch-2">
@@ -33,7 +33,7 @@ export default function Navbar() {
               height={45}
             />
             <p>
-              {"Scare billionaires because you'll be joining them on the golf course"}
+              {"Join a based community full of chads and good vibes"}
             </p>
           </div>
           <div className="pitch-list">
@@ -44,7 +44,7 @@ export default function Navbar() {
               height={45}
             />
             <p>
-              Simply the dankest memecoin since CumRocket
+              A truly decentralized, community owned token
             </p>
           </div>
         </div>
