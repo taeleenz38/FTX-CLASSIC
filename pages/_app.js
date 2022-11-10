@@ -6,6 +6,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
+        <title>FTX Classic</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Component {...pageProps} />
