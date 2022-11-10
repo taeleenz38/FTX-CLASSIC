@@ -71,9 +71,9 @@
 
 .content {
   height: 750px;
-  background-image: url('/sam.svg');
+  /* background-image: url('/sam.svg');
   background-position: right;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
   object-fit: fill;
 }
 
@@ -718,9 +718,9 @@
   padding: 0;
   color: white;
   height: 800px;
-  background-image: url('/cz.svg');
+  /* background-image: url('/cz.svg');
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: right; */
   margin-bottom: 100px;
 
 }
