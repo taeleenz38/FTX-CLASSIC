@@ -17,9 +17,9 @@ export default function Navbar() {
       </div>
       <div className="menu">
         <Link href="/">Home</Link>
-        <Link href="#">How To Buy</Link>
-        <Link href="#">Contract</Link>
-        <Link href="#">Socials</Link>
+        <Link href="#buy">How To Buy</Link>
+        <Link href="#contract">Contract</Link>
+        <Link href="#socials">Socials</Link>
       </div>
     </div>
   )

@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function Navbar() {
   return (
-    <div className='cards'>
+    <div className='cards' id="buy">
       <h1 className='card-header'>How To Buy</h1>
       <p className='card-p'>
         FTX Classic Token is purchased and sold through Uniswap and will be listed in many CEXes as its community grows. FTX Classic Token is

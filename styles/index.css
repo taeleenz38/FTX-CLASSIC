@@ -35,7 +35,7 @@
   justify-content: space-between;
   align-items: center;
   padding-top: 30px;
-  margin-bottom: 245px;
+  margin-bottom: 50px;
 }
 
 
@@ -43,11 +43,19 @@
 /* 2. main content CSS */
 
 .content {
-  height: 707px;
+  height: 750px;
+  background-image: url('/sam.svg');
+  background-position: right;
+  background-repeat: no-repeat;
+  object-fit: fill;
 }
 
 .content-info {
   width: 42%;
+}
+
+.content-message {
+  padding-top: 100px;
 }
 
 .content-message h2 {
@@ -55,6 +63,10 @@
   font-size: 60px;
   color: white;
   margin-bottom: 4rem;
+}
+
+.content-message span {
+  color: #61D0E3;
 }
 
 .content-btns {
@@ -76,6 +88,46 @@
 .content a:hover {
   background-color: #61D0E3;
 }
+
+@media (max-width: 1590px) {
+
+  .content h2 {
+    font-size: 45px;
+  }
+
+  .content a {
+    font-size: 15px;
+    padding: 0.75rem 2rem;
+  }
+}
+
+@media (max-width: 1305px) {
+  .content h2 {
+    font-size: 30px;
+    margin-bottom: 2rem;
+  }
+
+  .content a {
+    font-size: 12px;
+    padding: 0.4rem 1.3rem;
+  }
+
+}
+
+@media (max-width: 1060px) {
+  .content h2 {
+    font-size: 30px;
+    margin-bottom: 2rem;
+  }
+
+  .content a {
+    font-size: 10px;
+    padding: 0.2rem 0.7rem;
+    margin-right: 1rem;
+  }
+}
+
+
 
 
 /* 3. pitch CSS */
@@ -141,12 +193,54 @@
   align-items: center;
 }
 
+@media (max-width: 1500px) {
+  .pitch-1 h2 {
+    margin: 0;
+    font-size: 28px;
+    text-align: right;
+    line-height: 50px;
+  }
+
+  .pitch-info {
+    width: 80%;
+  }
+
+  .pitch-2 p {
+    margin-left: 15px;
+  }
+}
+
+@media (max-width: 1260px) {
+
+  .pitch-head h2 {
+    font-size: 40px;
+  }
+
+  .pitch-info {
+    width: 85%;
+  }
+
+  .pitch-1 h2 {
+    font-size: 22px;
+  }
+
+  .pitch-2 p {
+    font-size: 12px;
+    margin-left: 12px;
+  }
+
+  .pitch-1 {
+    width: 350px;
+  }
+}
+
 
 
 /* 4. how to buy section CSS */
 
 
 .cards {
+  padding-top: 10px;
   color: white;
 }
 
@@ -334,6 +428,145 @@
   font-weight: 300;
 }
 
+@media (max-width: 1620px) {
+  .card-list {
+    width: 80%;
+  }
+
+  .card1 {
+    width: 250px;
+    height: 375px;
+  }
+
+  .card1 img {
+    margin-top: 18px;
+    margin-left: 18px;
+    margin-bottom: 20px;
+    width: 30px !important;
+    height: 27.8px !important;
+  }
+
+  .card1 h3 {
+    margin-left: 18px;
+    margin-bottom: 0;
+    font-size: 12px;
+  }
+
+  .card1 p {
+    margin: 18px;
+    margin-right: 15px;
+    font-size: 13px;
+  }
+
+  .card2 {
+    width: 250px;
+    height: 375px;
+  }
+
+  .card2 img {
+    width: 20px !important;
+    height: 32.6px !important;
+    margin-top: 14px;
+    margin-left: 18px;
+    margin-bottom: 17px;
+  }
+
+  .card2 h3 {
+    margin-left: 18px;
+    margin-bottom: 0;
+    font-size: 12px;
+  }
+
+  .card2 p {
+    margin: 18px;
+    margin-right: 15px;
+    font-size: 13px;
+  }
+
+  .card3 {
+    width: 250px;
+    height: 375px;
+  }
+
+  .card3 img {
+    width: 29px !important;
+    height: 33.5px !important;
+    margin-top: 14px;
+    margin-left: 18px;
+    margin-bottom: 17px;
+  }
+
+  .card3 h3 {
+    margin-left: 18px;
+    margin-bottom: 0;
+    font-size: 12px;
+  }
+
+  .card3 p {
+    margin: 18px;
+    margin-right: 15px;
+    font-size: 13px;
+  }
+
+  .card4 {
+    width: 250px;
+    height: 375px;
+  }
+
+  .card4 img {
+    width: 29px !important;
+    height: 14.07px !important;
+    margin-top: 25px;
+    margin-left: 18px;
+    margin-bottom: 24px;
+  }
+
+  .card4 h3 {
+    margin-left: 18px;
+    margin-bottom: 0;
+    font-size: 12px;
+  }
+
+  .card4 p {
+    margin: 18px;
+    margin-right: 15px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 1340px) {
+  .card-list {
+    margin: 0 auto;
+    width: 70%;
+    gap: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 120px;
+  }
+
+}
+
+@media (max-width: 1260px) {
+
+  .card-p {
+    width: 750px;
+  }
+
+  .card-list {
+    margin: 0 auto;
+    width: 70%;
+    gap: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 120px;
+  }
+
+}
+
 
 
 /* 5. CZ trolling CSS */
@@ -342,15 +575,21 @@
 .cz-troll {
   padding: 0;
   color: white;
-  height: 700px;
+  height: 800px;
+  background-image: url('/cz.svg');
+  background-repeat: no-repeat;
+  background-position: right;
+  margin-bottom: 100px;
+
 }
 
 .cz-quote {
-  font-size: 32px;
+  font-size: 28px;
   margin: 0;
-  width: 921px;
-  margin-top: 300px;
+  width: 800px;
+  margin-top: 150px;
   margin-left: 200px;
+  padding-top: 180px;
 }
 
 .cz-quote span {
@@ -364,9 +603,40 @@
 .cz-cite {
   font-size: 25px;
   margin: 0;
-  margin-left: 610px;
+  margin-left: 510px;
   margin-top: 64px;
 }
+
+@media (max-width: 1460px) {
+
+  .cz-quote {
+    font-size: 24px;
+    width: 600px;
+    margin-left: 150px;
+  }
+
+  .cz-cite {
+    font-size: 18px;
+    margin-left: 400px;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 1220px) {
+
+  .cz-quote {
+    font-size: 20px;
+    width: 500px;
+    margin-left: 100px;
+  }
+
+  .cz-cite {
+    font-size: 16px;
+    margin-left: 300px;
+    margin-top: 24px;
+  }
+}
+
 
 
 
@@ -376,6 +646,7 @@
 .last-section {
   margin: 0;
   margin-left: 225px;
+  height: 400px;
   color: white;
   display: flex;
 }
@@ -411,7 +682,7 @@
 
 .contract {
   color: white;
-  margin-bottom: 125px;
+  margin-bottom: 175px;
 }
 
 .contract h1 {
@@ -424,15 +695,78 @@
   text-align: center;
 }
 
+@media (max-width: 1550px) {
+
+  .ending-message {
+    margin-left: 80px;
+  }
+
+  .ending-message h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  .ending-message p {
+    width: 400px;
+    font-size: 14px;
+  }
+}
+
+
+@media (max-width: 1220px) {
+  .last-section img {
+    width: 200px;
+    height: 170px;
+    margin-top: 0;
+  }
+
+  .ending-message img {
+    margin-right: 5px;
+    width: 25px !important;
+    height: auto !important;
+  }
+
+  .ending-message a {
+    width: 30px;
+    height: 30px;
+  }
+
+  .last-section {
+    margin-left: 150px;
+  }
+
+  .contract {
+    margin-bottom: 100px;
+  }
+
+  .contract h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .contract h2 {
+    font-size: 18px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 990px) {
+  .last-section {
+    margin-left: 75px;
+  }
+}
+
+
 
 /* 7. footer CSS */
 
 
 .footer {
-  height: 150px;
+  height: 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-top: 1px solid #61D0E3;
 }
 
 .footer p {
@@ -456,4 +790,20 @@
 .footer-menu a:hover {
   transform: translateY(-8px);
   box-shadow: 0 4px 2px -2px #61D0E3;
+}
+
+@media (max-width: 1220px) {
+  .footer p {
+    font-size: 16px;
+    margin-left: 100px;
+  }
+
+  .footer-menu {
+    margin-right: 100px;
+  }
+
+  .footer-menu a {
+    font-size: 16px;
+    margin-left: 30px;
+  }
 }

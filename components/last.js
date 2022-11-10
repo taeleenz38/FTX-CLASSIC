@@ -13,10 +13,10 @@ export default function Navbar() {
           height={170}
         />
 
-        <div className="ending-message">
+        <div className="ending-message" id="socials">
           <h3>Join a Thriving Degen Community</h3>
           <p>Our community grows stronger every day. Please follow our socials to get the most up-to-date, accurate FTX Classic Token information.</p>
-          <div className="socials">
+          <div className="socials" >
             <Link href="https://discord.gg/flur">
               <Image
                 src="/discord.svg"
@@ -44,7 +44,7 @@ export default function Navbar() {
           </div>
         </div>
       </div>
-      <div className="contract">
+      <div className="contract" id="contract">
         <h1>Contract</h1>
         <h2>0xD9F6724F250F4dA8453e3DD97d718872BF72C1Da</h2>
       </div>

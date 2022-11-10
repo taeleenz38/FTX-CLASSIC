@@ -7,7 +7,7 @@ export default function Navbar() {
     <div className='content'>
       <div className="content-info">
         <div className="content-message">
-          <h2>{"FTX Classic (FTTC) is the original backbone of the FTX ecosystem"}</h2>
+          <h2><span>{"FTX Classic (FTTC)"}</span> is the original backbone of the FTX ecosystem</h2>
         </div>
         <div className="content-btns">
           <Link className="buy-btn" href="#">BUY NOW</Link>
