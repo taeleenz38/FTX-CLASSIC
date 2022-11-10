@@ -844,6 +844,10 @@
   margin-right: 30px;
 }
 
+.socials img {
+  transition: all 0.2s;
+}
+
 .socials img:hover {
   filter: brightness(0) saturate(100%) invert(70%) sepia(85%) saturate(308%) hue-rotate(146deg) brightness(95%) contrast(87%);
 }
