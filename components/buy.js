@@ -49,7 +49,7 @@ export default function Navbar() {
             CONNECT TO UNISWAP
           </h3>
           <p>
-            {"Access your wallet to Uniswap by clicking 'connect to a wallet' and selecting Meta Mask."}
+            {"Access your wallet in Uniswap by clicking 'connect to a wallet' and selecting MetaMask."}
           </p>
         </div>
         <div className="card4">
@@ -63,7 +63,7 @@ export default function Navbar() {
             SWAP ETH FOR FTTC
           </h3>
           <p>
-            {"You can start swapping as soon as you have ETH available. Press 'select a token' and enter the token address or search for it on the tokens list."}
+            {"You can start swapping as soon as you have ETH available. Press 'select a token' and enter the token address or search for it on the list of tokens."}
           </p>
         </div>
       </div>

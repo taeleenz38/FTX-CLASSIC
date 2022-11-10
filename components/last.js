@@ -4,7 +4,7 @@ import React from 'react'
 
 export default function Navbar() {
   return (
-    <div>
+    <div className='last'>
       <div className="last-section">
         <Image
           src="/logo white.svg"
@@ -45,7 +45,7 @@ export default function Navbar() {
         </div>
       </div>
       <div className="contract" id="contract">
-        <h1>Contract</h1>
+        <h1>Contract Address</h1>
         <h2>0xD9F6724F250F4dA8453e3DD97d718872BF72C1Da</h2>
       </div>
     </div>
