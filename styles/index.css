@@ -1,0 +1,459 @@
+/* CSS broken down into sections */
+
+
+
+/* 1. navbar CSS */
+
+
+.menu {
+  width: 400px;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  margin-right: 10rem;
+}
+
+.menu a {
+  text-decoration: none;
+  font-weight: 500;
+  color: white;
+  transition: all 0.2s;
+}
+
+.menu a:hover {
+  box-shadow: 0 4px 2px -2px #61D0E3;
+}
+
+.logo {
+  margin-left: 10rem;
+}
+
+.navbar {
+  width: 100%;
+  height: 130px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+  margin-bottom: 245px;
+}
+
+
+
+/* 2. main content CSS */
+
+.content {
+  height: 707px;
+}
+
+.content-info {
+  width: 42%;
+}
+
+.content-message h2 {
+  margin-left: 10rem;
+  font-size: 60px;
+  color: white;
+  margin-bottom: 4rem;
+}
+
+.content-btns {
+  margin-left: 10rem;
+}
+
+.content a {
+  text-decoration: none;
+  color: white;
+  border: 2px solid #61D0E3;
+  padding: 1.25rem 3.5rem;
+  margin-right: 2rem;
+  border-radius: 36px;
+  font-size: 20px;
+  font-weight: 700;
+  transition: all 0.2s;
+}
+
+.content a:hover {
+  background-color: #61D0E3;
+}
+
+
+/* 3. pitch CSS */
+
+
+.pitch {
+  color: white;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #111111;
+  padding-top: 140px;
+  padding-bottom: 180px;
+}
+
+.pitch-head {
+  margin: 0 auto;
+  text-align: center;
+  width: 80%;
+  margin-bottom: 118px;
+}
+
+.pitch-head h2 {
+  font-size: 65px;
+  font-weight: 700;
+}
+
+.pitch-info {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.pitch-1 {
+  margin: 0;
+  width: 450px;
+}
+
+.pitch-1 h2 {
+  margin: 0;
+  font-size: 32px;
+  text-align: right;
+  line-height: 50px;
+}
+
+.pitch-2 {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 180px;
+}
+
+.pitch-2 p {
+  margin: 0;
+  margin-left: 27px;
+  font-size: 15px;
+}
+
+.pitch-list {
+  display: flex;
+  align-items: center;
+}
+
+
+
+/* 4. how to buy section CSS */
+
+
+.cards {
+  color: white;
+}
+
+.card-header {
+  font-size: 50px;
+  margin: 0;
+  margin-top: 120px;
+  text-align: center;
+  margin-bottom: 29px;
+}
+
+.card-p {
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 35px;
+  margin: 0 auto;
+  width: 1000px;
+  margin-bottom: 50px;
+}
+
+.card-list {
+  margin: 0 auto;
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  align-items: center;
+  margin-bottom: 120px;
+}
+
+.card1 {
+  width: 350px;
+  height: 480px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #111111;
+  transition: all 0.15s;
+}
+
+.card1:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 4px 2px -2px #61D0E3;
+}
+
+.card1 img {
+  margin-top: 34px;
+  margin-left: 36px;
+  margin-bottom: 45.58px;
+}
+
+.card1 h3 {
+  margin: 0;
+  margin-left: 36px;
+  margin-bottom: 19px;
+  font-size: 15px;
+  line-height: 32px;
+}
+
+.card1 p {
+  margin: 0;
+  margin-left: 36px;
+  margin-right: 27px;
+  font-size: 17px;
+  line-height: 34px;
+  font-weight: 300;
+}
+
+.card2 {
+  width: 350px;
+  height: 480px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #111111;
+  transition: all 0.15s;
+}
+
+.card2 img {
+  margin-top: 31.89px;
+  margin-left: 34px;
+  margin-bottom: 39.89px;
+}
+
+.card2:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 4px 2px -2px #61D0E3;
+}
+
+.card2 h3 {
+  margin: 0;
+  margin-left: 36px;
+  margin-bottom: 19px;
+  font-size: 15px;
+  line-height: 32px;
+}
+
+.card2 p {
+  margin: 0;
+  margin-left: 36px;
+  margin-right: 27px;
+  font-size: 17px;
+  line-height: 34px;
+  font-weight: 300;
+}
+
+.card3 {
+  width: 350px;
+  height: 480px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #111111;
+  transition: all 0.15s;
+}
+
+.card3:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 4px 2px -2px #61D0E3;
+}
+
+.card3 img {
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-bottom: 42px;
+}
+
+.card3 h3 {
+  margin: 0;
+  margin-left: 36px;
+  margin-bottom: 19px;
+  font-size: 15px;
+  line-height: 32px;
+}
+
+.card3 p {
+  margin: 0;
+  margin-left: 36px;
+  margin-right: 27px;
+  font-size: 17px;
+  line-height: 34px;
+  font-weight: 300;
+}
+
+.card4 {
+  width: 350px;
+  height: 480px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #111111;
+  transition: all 0.15s;
+}
+
+.card4:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 4px 2px -2px #61D0E3;
+}
+
+.card4 img {
+  margin-top: 49px;
+  margin-left: 32px;
+  margin-bottom: 57px;
+}
+
+.card4 h3 {
+  margin: 0;
+  margin-left: 36px;
+  margin-bottom: 19px;
+  font-size: 15px;
+  line-height: 32px;
+}
+
+.card4 p {
+  margin: 0;
+  margin-left: 36px;
+  margin-right: 27px;
+  font-size: 17px;
+  line-height: 34px;
+  font-weight: 300;
+}
+
+
+
+/* 5. CZ trolling CSS */
+
+
+.cz-troll {
+  padding: 0;
+  color: white;
+  height: 700px;
+}
+
+.cz-quote {
+  font-size: 32px;
+  margin: 0;
+  width: 921px;
+  margin-top: 300px;
+  margin-left: 200px;
+}
+
+.cz-quote span {
+  color: #61D0E3;
+}
+
+.cz-quote h1 {
+  margin: 0;
+}
+
+.cz-cite {
+  font-size: 25px;
+  margin: 0;
+  margin-left: 610px;
+  margin-top: 64px;
+}
+
+
+
+/* 6. ending CSS */
+
+
+.last-section {
+  margin: 0;
+  margin-left: 225px;
+  color: white;
+  display: flex;
+}
+
+.last-section img {
+  margin-top: 25px;
+}
+
+.ending-message {
+  margin-left: 170px;
+  margin-bottom: 265px;
+}
+
+.ending-message h3 {
+  font-size: 50px;
+  margin: 0;
+  margin-bottom: 25px;
+  padding: 0;
+}
+
+.ending-message p {
+  margin: 0;
+  margin-left: 3px;
+  font-weight: 500;
+  line-height: 38.52px;
+  width: 620px;
+  margin-bottom: 20px;
+}
+
+.ending-message a {
+  margin-right: 30px;
+}
+
+.contract {
+  color: white;
+  margin-bottom: 125px;
+}
+
+.contract h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+.contract h2 {
+  font-size: 25px;
+  text-align: center;
+}
+
+
+/* 7. footer CSS */
+
+
+.footer {
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer p {
+  font-size: 20px;
+  margin-left: 200px;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.footer-menu {
+  margin-right: 200px;
+}
+
+.footer-menu a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  margin-left: 100px;
+  transition: all 0.2s;
+}
+
+.footer-menu a:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 4px 2px -2px #61D0E3;
+}
