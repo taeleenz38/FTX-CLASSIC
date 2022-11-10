@@ -34,10 +34,37 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 30px;
+  padding-top: 10px;
   margin-bottom: 50px;
 }
 
+@media (max-width: 480px) {
+  .navbar {
+    height: 110px;
+    margin: 0;
+    margin-bottom: 25px;
+
+  }
+
+  .logo {
+    margin-left: 20px;
+    width: 90px;
+  }
+
+  .logo img {
+    width: 70px !important;
+    height: auto;
+  }
+
+  .menu {
+    width: 220px;
+    margin-right: 20px;
+  }
+
+  .menu a {
+    font-size: 12px;
+  }
+}
 
 
 /* 2. main content CSS */
@@ -124,6 +151,41 @@
     font-size: 10px;
     padding: 0.2rem 0.7rem;
     margin-right: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .content {
+    object-fit: cover;
+    overflow:hidden;
+    background-position: 9% 60%;
+  }
+
+  .content-message {
+    padding-top: 200px;
+  }
+
+  .content-message h2 {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 1rem;
+  }
+
+  .content-info {
+    width: 100%;
+  }
+
+  .content a {
+    font-size: 16px;
+    padding: 0.5rem 1.25rem;
+    margin-right: 1rem;
+  }
+
+  .content-btns {
+    margin-top: 30px;
+    margin-left: 1.2rem;
   }
 }
 
@@ -231,6 +293,45 @@
 
   .pitch-1 {
     width: 350px;
+  }
+}
+
+@media (max-width: 480px) {
+  .pitch-head h2 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .pitch-head {
+    margin-bottom: 50px;
+  }
+
+  .pitch-1 h2 {
+    font-size: 18px;
+    text-align: center;
+    width: 280px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+  }
+
+  .pitch-2 p {
+    font-size: 12px;
+    margin-left: 12px;
+  }
+
+  .pitch-1 {
+    width: 350px;
+  }
+
+  .pitch-info {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
 
@@ -564,7 +665,48 @@
     align-items: center;
     margin-bottom: 120px;
   }
+}
 
+@media (max-width: 480px) {
+  .card-header {
+    margin-top: 40px;
+    font-size: 30px;
+  }
+
+  .card-p {
+    display: none;
+  }
+
+  .card-list {
+    margin: 0 auto;
+    width: 90%;
+    gap: 25px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 120px;
+  }
+
+  .card1 {
+    width: 280px;
+    height: 325px;
+  }
+
+  .card2 {
+    width: 280px;
+    height: 325px;
+  }
+
+  .card3 {
+    width: 280px;
+    height: 325px;
+  }
+
+  .card4 {
+    width: 280px;
+    height: 325px;
+  }
 }
 
 
@@ -637,6 +779,29 @@
   }
 }
 
+@media (max-width: 480px) {
+  .cz-cite {
+    text-shadow: 0.3px 1px #61D0E3;
+    margin-top: 18px;
+    margin-left: 18px;
+    width: 250px;
+    text-align: right;
+  }
+
+  .cz-quote {
+    width: 300px;
+    font-size: 18px;
+    text-align: left;
+    margin-left: 25px;
+    text-shadow: 0.3px 1px #61D0E3;
+    margin-right: 25px;
+  }
+
+  .cz-troll {
+    background-size: fit;
+    background-position: -2% 50%;
+  }
+}
 
 
 
@@ -756,6 +921,50 @@
   }
 }
 
+@media (max-width: 480px) {
+  .last-section img {
+    width: 100px;
+    height: 65px;
+    margin-right: 0;
+  }
+
+  .last-section {
+    margin-left: 18px;
+  }
+
+
+  .ending-message h3 {
+    font-size: 20px;
+    margin: 0;
+    margin-bottom: 25px;
+    padding: 0;
+  }
+
+  .ending-message p {
+    margin: 0;
+    margin-left: 3px;
+    font-weight: 400;
+    line-height: 15px;
+    width: 200px;
+    margin-bottom: 20px;
+  }
+
+  .ending-message {
+    margin-left: 30px;
+    margin-bottom: 265px;
+  }
+
+  .contract h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .contract h2 {
+    font-size: 12px;
+    text-align: center;
+  }
+
+}
 
 
 /* 7. footer CSS */
@@ -805,5 +1014,26 @@
   .footer-menu a {
     font-size: 16px;
     margin-left: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .footer {
+    height: 75px;
+  }
+
+  .footer p {
+    font-size: 12px;
+    margin-left: 10px;
+  }
+
+  .footer-menu {
+    margin-right: 10px;
+  }
+
+  .footer-menu a {
+    font-size: 12px;
+    margin-left: 12px;
   }
 }
