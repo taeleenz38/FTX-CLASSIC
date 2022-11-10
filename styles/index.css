@@ -894,6 +894,7 @@
   .ending-message a {
     width: 30px;
     height: 30px;
+    transition: all 0.2s;
   }
 
   .last-section {
@@ -912,6 +913,10 @@
   .contract h2 {
     font-size: 18px;
     text-align: center;
+  }
+
+  .ending-message a:hover {
+    color: #61D0E3;
   }
 }
 
