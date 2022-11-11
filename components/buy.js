@@ -21,7 +21,7 @@ export default function Navbar() {
             CREATE A METAMASK WALLET
           </h3>
           <p>
-            Create a Meta Mask Wallet using either a desktop computer or an iOS/Android mobile device. That will allow you to buy, sell, send, and receive FTX Classic Tokens.
+            Create a MetaMask Wallet using either a desktop computer or an iOS/Android mobile device. That will allow you to buy, sell, send, and receive FTX Classic Tokens.
           </p>
         </div>
         <div className="card2">
@@ -35,7 +35,7 @@ export default function Navbar() {
             FUND WALLET WITH ETH
           </h3>
           <p>
-            {"You can buy Ethereum (ETH) directly on MetaMask or transfer it to your MetaMask Wallet from exchanges like Coinbase, Binance, etc. Make sure to use the ERC-20 network when transfering ETH."}
+            {"You can buy Ethereum (ETH) directly on MetaMask or transfer it to your MetaMask Wallet from exchanges like Coinbase, Binance, etc. Make sure to use the ERC-20 network when transferring ETH."}
           </p>
         </div>
         <div className="card3">
