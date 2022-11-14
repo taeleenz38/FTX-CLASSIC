@@ -852,18 +852,40 @@
 .contract {
   color: white;
   margin-bottom: 80px;
+  text-align: center;
 }
 
 .contract h1 {
-  font-size: 40px;
+  font-size: 50px;
   text-align: center;
 }
 
 .contract h2 {
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 400;
   text-align: center;
 }
+
+.contract button {
+  text-decoration: none;
+  border: 2px solid #61D0E3;
+  border-radius: 0.5rem;
+  background-color: black;
+  color: white;
+  padding: 0.75rem 2.25rem;
+  margin: 0 auto;
+  margin-top: 15px;
+  transition: all 0.25s;
+  font-size: 20px;
+}
+
+.contract button:hover {
+  background-color: #61D0E3;
+  transform: scale(1.04);
+  cursor: pointer;
+
+}
+
 
 @media (max-width: 1550px) {
 

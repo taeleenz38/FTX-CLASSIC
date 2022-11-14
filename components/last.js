@@ -3,8 +3,11 @@ import Link from 'next/link'
 import React from 'react'
 
 export default function Navbar() {
+
+
+
   return (
-    <div className='last'>
+    <div className='last' >
       <div className="last-section">
         <Image
           src="/logo white.svg"
@@ -46,7 +49,8 @@ export default function Navbar() {
       </div>
       <div className="contract" id="contract">
         <h1>Contract Address</h1>
-        <h2>0xD9F6724F250F4dA8453e3DD97d718872BF72C1Da</h2>
+        <h2 value="0xD9F6724F250F4dA8453e3DD97d718872BF72C1Da">0xD9F6724F250F4dA8453e3DD97d718872BF72C1Da</h2>
+        <button onClick={() => navigator.clipboard.writeText('0xD9F6724F250F4dA8453e3DD97d718872BF72C1Da')}>Copy to clipboard</button>
       </div>
     </div>
   )
