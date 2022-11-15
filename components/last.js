@@ -29,7 +29,7 @@ export default function Navbar() {
                 height={38.24}
               />
             </Link>
-            <Link href="https://twitter.com/FTXCLASSIC" target="_blank" rel="noopener noreferrer">
+            <Link href="https://twitter.com/FTXClassicToken" target="_blank" rel="noopener noreferrer">
               <Image
                 id="twitter"
                 src="/twitter.svg"
