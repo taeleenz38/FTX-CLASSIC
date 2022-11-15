@@ -808,6 +808,21 @@
   display: flex;
 }
 
+.logoemail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.email {
+  font-size: 24px;
+  margin-top: 35px;
+}
+
+.email img {
+  margin-right: 5px;
+}
+
 .socials {
   height: 60px;
   width: 500px;

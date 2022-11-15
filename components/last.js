@@ -9,12 +9,25 @@ export default function Navbar() {
   return (
     <div className='last' >
       <div className="last-section">
-        <Image
-          src="/logo white.svg"
-          alt="white logo"
-          width={356}
-          height={170}
-        />
+        <div className='logoemail'>
+          <Image
+            src="/logo white.svg"
+            alt="white logo"
+            width={356}
+            height={170}
+          />
+
+          <h5 className='email'>
+            <Image
+              src="/email.png"
+              alt="email logo"
+              width={40}
+              height={40}
+            />
+            ftxclassictoken@gmail.com
+          </h5>
+
+        </div>
 
         <div className="ending-message" id="socials">
           <h3>Join a Thriving Community</h3>
