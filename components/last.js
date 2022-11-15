@@ -53,6 +53,7 @@ export default function Navbar() {
             </Link>
             <Link href="https://t.me/ftxclassicentry" target="_blank" rel="noopener noreferrer">
               <Image
+                id="telegram"
                 src="/telegram.svg"
                 alt="telegram icon"
                 width={38}
@@ -61,6 +62,7 @@ export default function Navbar() {
             </Link>
             <Link href="https://www.reddit.com/user/FtxClassicToken" target="_blank" rel="noopener noreferrer">
               <Image
+                id="reddit"
                 src="/reddit.svg"
                 alt="reddit icon"
                 width={38}
@@ -79,6 +81,17 @@ export default function Navbar() {
           </div>
         </div>
       </div>
+
+      <h5 className="email2">
+            <Image
+              src="/email.png"
+              alt="email logo"
+              width={40}
+              height={40}
+            />
+            ftxclassictoken@gmail.com
+          </h5>
+
       <div className="contract" id="contract">
         <h1>Contract Address</h1>
         <h2 value="0xD9F6724F250F4dA8453e3DD97d718872BF72C1Da">0xD9F6724F250F4dA8453e3DD97d718872BF72C1Da</h2>

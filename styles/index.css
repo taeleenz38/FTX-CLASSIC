@@ -797,7 +797,6 @@
 
 /* 6. last CSS */
 
-
 .last-section {
   margin: 0;
   margin-left: 185px;
@@ -817,10 +816,15 @@
 .email {
   font-size: 24px;
   margin-top: 35px;
+  color: #61D0E3;
 }
 
 .email img {
   margin-right: 5px;
+}
+
+.email2 {
+  display:none;
 }
 
 .socials {
@@ -943,7 +947,7 @@
   }
 
   #youtube {
-    width: 40px !important;
+    width: 28px !important;
   }
 
   .ending-message a {
@@ -969,6 +973,15 @@
     font-size: 18px;
     text-align: center;
   }
+
+  .email {
+    font-size: 16px;
+  }
+
+  .email img {
+    width: 20px !important;
+    height: 20px !important;
+  }
 }
 
 @media (max-width: 990px) {
@@ -991,6 +1004,8 @@
 
   .last-section {
     margin-left: 18px;
+    margin-bottom: 0;
+    height: 230px;
   }
 
 
@@ -1026,20 +1041,41 @@
   }
 
   .socials {
-    width: 150px;
+    width: 120px;
     align-items: center;
   }
 
   #youtube {
-    width: 25px !important;
+    width: 22px !important;
   }
 
   #discord {
-    width: 29px !important;
+    width: 24px !important;
   }
 
   #twitter {
-    width: 28px !important;
+    width: 22px !important;
+  }
+
+  #telegram {
+    width: 20px !important;
+  }
+
+  #reddit {
+    width: 20px !important;
+  }
+
+
+  .email {
+    display: none;
+  }
+
+  .email2 {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 80px;
+    margin-bottom: 100px;
   }
 
 }
