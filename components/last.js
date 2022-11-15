@@ -24,7 +24,7 @@ export default function Navbar() {
               width={40}
               height={40}
             />
-            ftxclassictoken@gmail.com
+            team@ftxclassic.io
           </h5>
 
         </div>
@@ -83,14 +83,14 @@ export default function Navbar() {
       </div>
 
       <h5 className="email2">
-            <Image
-              src="/email.png"
-              alt="email logo"
-              width={40}
-              height={40}
-            />
-            ftxclassictoken@gmail.com
-          </h5>
+        <Image
+          src="/email.png"
+          alt="email logo"
+          width={40}
+          height={40}
+        />
+        team@ftxclassic.io
+      </h5>
 
       <div className="contract" id="contract">
         <h1>Contract Address</h1>
