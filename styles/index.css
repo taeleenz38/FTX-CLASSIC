@@ -808,8 +808,12 @@
   display: flex;
 }
 
-.last-section img {
-  margin-top: 25px;
+.socials {
+  height: 60px;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .ending-message {
@@ -841,8 +845,8 @@
   transition: all 0.2s;
 }
 
-.socials img:hover {
-  filter: brightness(0) saturate(100%) invert(70%) sepia(85%) saturate(308%) hue-rotate(146deg) brightness(95%) contrast(87%);
+.socials a {
+  text-align: center;
 }
 
 .ending-message a:hover {
@@ -886,6 +890,10 @@
 
 }
 
+#youtube {
+  width: 42px !important;
+}
+
 
 @media (max-width: 1550px) {
 
@@ -918,6 +926,10 @@
     height: auto !important;
   }
 
+  #youtube {
+    width: 40px !important;
+  }
+
   .ending-message a {
     width: 30px;
     height: 30px;
@@ -947,6 +959,11 @@
   .last-section {
     margin-left: 75px;
   }
+
+  .socials {
+    width: 420px;
+  }
+
 }
 
 @media (max-width: 480px) {
@@ -990,6 +1007,23 @@
   .contract h2 {
     font-size: 12px;
     text-align: center;
+  }
+
+  .socials {
+    width: 150px;
+    align-items: center;
+  }
+
+  #youtube {
+    width: 25px !important;
+  }
+
+  #discord {
+    width: 29px !important;
+  }
+
+  #twitter {
+    width: 28px !important;
   }
 
 }

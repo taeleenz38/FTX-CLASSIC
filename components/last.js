@@ -22,6 +22,7 @@ export default function Navbar() {
           <div className="socials" >
             <Link href="https://discord.gg/flur" target="_blank" rel="noopener noreferrer">
               <Image
+                id="discord"
                 src="/discord.svg"
                 alt="discord icon"
                 width={50}
@@ -30,6 +31,7 @@ export default function Navbar() {
             </Link>
             <Link href="https://twitter.com/FTXCLASSIC" target="_blank" rel="noopener noreferrer">
               <Image
+                id="twitter"
                 src="/twitter.svg"
                 alt="twitter icon"
                 width={45}
@@ -42,6 +44,23 @@ export default function Navbar() {
                 alt="telegram icon"
                 width={38}
                 height={38}
+              />
+            </Link>
+            <Link href="https://t.me/ftxclassicentry" target="_blank" rel="noopener noreferrer">
+              <Image
+                src="/reddit.svg"
+                alt="reddit icon"
+                width={38}
+                height={38}
+              />
+            </Link>
+            <Link href="https://youtube.com/channel/UCDhYh43sFHyGp7P3qE5CPNQ" target="_blank" rel="noopener noreferrer" id="#youtube-div">
+              <Image
+                id="youtube"
+                src="/youtube.svg"
+                alt="youtube icon"
+                width={60}
+                height={45}
               />
             </Link>
           </div>
