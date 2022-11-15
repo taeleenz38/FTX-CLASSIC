@@ -24,7 +24,7 @@ export default function Navbar() {
               width={40}
               height={40}
             />
-            team@ftxclassic.io
+            info@ftxclassic.io
           </h5>
 
         </div>
@@ -89,7 +89,7 @@ export default function Navbar() {
           width={40}
           height={40}
         />
-        team@ftxclassic.io
+        info@ftxclassic.io
       </h5>
 
       <div className="contract" id="contract">
