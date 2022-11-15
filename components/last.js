@@ -46,7 +46,7 @@ export default function Navbar() {
                 height={38}
               />
             </Link>
-            <Link href="https://t.me/ftxclassicentry" target="_blank" rel="noopener noreferrer">
+            <Link href="https://www.reddit.com/user/FtxClassicToken" target="_blank" rel="noopener noreferrer">
               <Image
                 src="/reddit.svg"
                 alt="reddit icon"
